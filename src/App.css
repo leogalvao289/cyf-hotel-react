@@ -1,5 +1,5 @@
 .App {
-  text-align: left;
+  text-align: center;
 }
 
 .App-logo {
@@ -56,11 +56,19 @@ ul {
   list-style: none;
 }
 
-img {
+.hotel {
   float: right;
 }
 
 .card {
   display: inline-flex;
-  padding: 20px;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.input {
+  margin-left: 450px;
+  margin-right: 0px;
 }
