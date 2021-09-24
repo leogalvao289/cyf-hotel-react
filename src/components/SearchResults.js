@@ -16,10 +16,14 @@ const SearchResults = props => {
             <th scope="col">Room id</th>
             <th scope="col">Check in Date</th>
             <th scope="col">Check out Date</th>
+            <th scope="col">Nights</th>
           </tr>
         </thead>
         <tbody>
           {props.results.map((item, index) => {
+            const checkOut = moment(item.checkOutDate, "DD-MM-YYYY");
+            const checkIn = moment(item.checkInDate, "DD-MM-YYYY");
+
             return (
               <tr key={index}>
                 <th scope="row">{item.id}</th>
@@ -30,6 +34,7 @@ const SearchResults = props => {
                 <td>{item.roomId}</td>
                 <td>{item.checkInDate}</td>
                 <td>{item.checkOutDate}</td>
+                <td>{checkOut.diff(checkIn, "days")}</td>
               </tr>
             );
           })}
