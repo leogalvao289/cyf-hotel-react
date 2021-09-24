@@ -1,6 +1,8 @@
 import React from "react";
+import moment from "moment";
+moment().format();
 
-const SearchResults = () => {
+const SearchResults = props => {
   return (
     <div>
       <table class="table">
@@ -17,36 +19,20 @@ const SearchResults = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-            <td>@twitter</td>
-          </tr>
+          {props.results.map((item, index) => {
+            return (
+              <tr key={index}>
+                <th scope="row">{item.id}</th>
+                <td>{item.title}</td>
+                <td>{item.firstName}</td>
+                <td>{item.surname}</td>
+                <td>{item.email}</td>
+                <td>{item.roomId}</td>
+                <td>{item.checkInDate}</td>
+                <td>{item.checkOutDate}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>

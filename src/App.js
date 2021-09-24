@@ -17,9 +17,8 @@ const App = () => {
   return (
     <div className="App">
       <Heading />
-      <TouristInfoCards />
-      <Search />
       <Bookings SearchResults={SearchResults} />
+      <TouristInfoCards />
       <Footer footerArray={footerArray} />
     </div>
   );

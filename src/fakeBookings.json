@@ -1,10 +1,52 @@
-{
-  "id": "number",
-  "title": "Glasgow",
-  "firstName": "Leo",
-  "surname": "Galvao",
-  "email": "leo@galvao.com",
-  "room": "2",
-  "Check in date": "10/09",
-  "check out date": "15/09"
-}
+[
+  {
+    "id": "1",
+    "title": "Mr",
+    "firstName": "Leo",
+    "surname": "Galvao",
+    "email": "leo@galvao.com",
+    "roomId": "1",
+    "checkInDate": "10-09-2021",
+    "checkOutDate": "15-09-2021"
+  },
+  {
+    "id": "2",
+    "title": "Mr",
+    "firstName": "Rodrigo",
+    "surname": "Barbosa",
+    "email": "rodrigo@galvao.com",
+    "roomId": "2",
+    "checkInDate": "10-09-2021",
+    "checkOutDate": "15-09-2021"
+  },
+  {
+    "id": "3",
+    "title": "Mr",
+    "firstName": "Antonio",
+    "surname": "Barbosa",
+    "email": "antonio@galvao.com",
+    "roomId": "3",
+    "checkInDate": "10-09-2021",
+    "checkOutDate": "15-09-2021"
+  },
+  {
+    "id": "4",
+    "title": "Mr",
+    "firstName": "Ricardoo",
+    "surname": "Barbosa",
+    "email": "ric@galvao.com",
+    "roomId": "4",
+    "checkInDate": "10-09-2021",
+    "checkOutDate": "15-09-2021"
+  },
+  {
+    "id": "5",
+    "title": "Mr",
+    "firstName": "Eduardo",
+    "surname": "Barbosa",
+    "email": "edu@galvao.com",
+    "roomId": "5",
+    "checkInDate": "10-09-2021",
+    "checkOutDate": "15-09-2021"
+  }
+]
