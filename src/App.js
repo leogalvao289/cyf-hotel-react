@@ -1,7 +1,6 @@
 import React from "react";
 import Bookings from "./components/Bookings";
 import Heading from "./components/Heading";
-import Search from "./components/Search";
 import SearchResults from "./components/SearchResults";
 import Footer from "./components/Footer";
 import TouristInfoCards from "./components/TouristInfoCards";

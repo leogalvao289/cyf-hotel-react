@@ -8,9 +8,8 @@ const Heading = () => {
         <img
           className="App-logo"
           src="https://image.flaticon.com/icons/svg/139/139899.svg"
-          className="hotel"
           alt="hotel"
-          style={{ width: "100px" }}
+          style={{ width: "150px" }}
         />
       </header>
     </div>

@@ -4,7 +4,8 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 50px;
+  height: 100px;
+  float: right;
 }
 
 .App-header {
@@ -55,20 +56,10 @@
 ul {
   list-style: none;
 }
-
-.hotel {
-  float: right;
-}
-
 .card {
   display: inline-flex;
   justify-content: space-around;
   margin-left: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-.input {
-  margin-left: 450px;
-  margin-right: 0px;
 }
