@@ -1,10 +1,7 @@
 import React from "react";
 
 const Order = props => {
-  return (
-    <li>
-      Pizzas: {OrderOne}
-      <RestaurantButton increment={increment} />
-    </li>
-  );
+  return <li className="card">Pizza: {props.OrderOne}</li>;
 };
+
+export default Order;
